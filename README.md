@@ -1,6 +1,8 @@
 # Frequent Pattern Growth Approach for Mining Frequent Itemsets
 ## Description
-Course: Data Mining and Knowledge Discovery (Fall 2021)
+Course: Data Mining and Knowledge Discovery (Fall 2021) <br />
+Task: Write own program
+
 
 >“Can we design a method that mines the complete set of frequent itemsets without such a costly candidate generation process?” An interesting method in this attempt is called frequent pattern growth, or simply FP-growth, which adopts a divide-and-conquer strategy as follows. First, it compresses the database representing frequent items into a frequent pattern tree, or FP-tree, which retains the itemset association information. It then divides the compressed database into a set of conditional databases (a special kind of projected database), each associated with one frequent item or “pattern fragment,” and mines each database separately. For each “pattern fragment,” only its associated data sets need to be examined. Therefore, this approach may substantially reduce the size of the data sets to be searched, along with the “growth” of patterns being examined. 
 >
