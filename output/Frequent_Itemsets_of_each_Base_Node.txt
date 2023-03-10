@@ -1,0 +1,314 @@
+Tea Powder
+
+
+         Frequent Item  Support
+0         [Tea Powder]     5383
+1  [Sweet, Tea Powder]     2503
+
+
+         Frequent Item  Support
+0         [Tea Powder]     5383
+1  [Sweet, Tea Powder]     2503
+
+
+----------------------------------------------------------------------
+
+
+Lassi
+
+
+                                         Frequent Item  Support
+0                                              [Lassi]     5432
+1                                      [Butter, Lassi]     2501
+2                                       [Sugar, Lassi]     2503
+3                                       [Sweet, Lassi]     2576
+4                                       [Bread, Lassi]     2506
+..                                                 ...      ...
+123   [Milk, Ghee, Bread, Sweet, Sugar, Butter, Lassi]       58
+124  [Milk, Ghee, Coffee Powder, Bread, Sweet, Suga...       56
+125  [Milk, Coffee Powder, Bread, Sweet, Sugar, But...       58
+126  [Milk, Ghee, Coffee Powder, Bread, Sweet, Butt...       51
+127  [Milk, Ghee, Coffee Powder, Bread, Sweet, Suga...       23
+
+[128 rows x 2 columns]
+
+
+            Frequent Item  Support
+0                 [Lassi]     5432
+1         [Butter, Lassi]     2501
+2          [Sugar, Lassi]     2503
+3          [Sweet, Lassi]     2576
+4          [Bread, Lassi]     2506
+5  [Coffee Powder, Lassi]     2512
+6           [Ghee, Lassi]     2511
+7           [Milk, Lassi]     2539
+
+
+----------------------------------------------------------------------
+
+
+Panner
+
+
+                          Frequent Item  Support
+0                              [Panner]     5444
+1                       [Sugar, Panner]     2505
+2                       [Sweet, Panner]     2505
+3                       [Bread, Panner]     2550
+4                        [Ghee, Panner]     2523
+5                [Sweet, Sugar, Panner]     1167
+6                [Bread, Sweet, Panner]     1218
+7                [Bread, Sugar, Panner]     1192
+8                 [Ghee, Sweet, Panner]     1169
+9                 [Ghee, Bread, Panner]     1221
+10                [Ghee, Sugar, Panner]     1187
+11        [Bread, Sweet, Sugar, Panner]      562
+12         [Ghee, Bread, Sugar, Panner]      586
+13         [Ghee, Sweet, Sugar, Panner]      541
+14         [Ghee, Bread, Sweet, Panner]      574
+15  [Ghee, Bread, Sweet, Sugar, Panner]      271
+
+
+     Frequent Item  Support
+0         [Panner]     5444
+1  [Sugar, Panner]     2505
+2  [Sweet, Panner]     2505
+3  [Bread, Panner]     2550
+4   [Ghee, Panner]     2523
+
+
+----------------------------------------------------------------------
+
+
+Cheese
+
+
+                             Frequent Item  Support
+0                                 [Cheese]     5476
+1                          [Bread, Cheese]     2530
+2                        [Yougurt, Cheese]     2532
+3                  [Coffee Powder, Cheese]     2517
+4                 [Yougurt, Bread, Cheese]     1203
+5           [Coffee Powder, Bread, Cheese]     1213
+6         [Coffee Powder, Yougurt, Cheese]     1207
+7  [Coffee Powder, Yougurt, Bread, Cheese]      577
+
+
+             Frequent Item  Support
+0                 [Cheese]     5476
+1          [Bread, Cheese]     2530
+2        [Yougurt, Cheese]     2532
+3  [Coffee Powder, Cheese]     2517
+
+
+----------------------------------------------------------------------
+
+
+Butter
+
+
+                                        Frequent Item  Support
+0                                            [Butter]     5481
+1                                     [Sugar, Butter]     2571
+2                                     [Sweet, Butter]     2543
+3                                   [Yougurt, Butter]     2529
+4                             [Coffee Powder, Butter]     2502
+5                                      [Ghee, Butter]     2530
+6                              [Sweet, Sugar, Butter]     1249
+7                            [Yougurt, Sweet, Butter]     1210
+8                            [Yougurt, Sugar, Butter]     1235
+9                      [Coffee Powder, Sugar, Butter]     1211
+10                     [Coffee Powder, Sweet, Butter]     1174
+11                   [Coffee Powder, Yougurt, Butter]     1216
+12                      [Ghee, Coffee Powder, Butter]     1216
+13                              [Ghee, Sugar, Butter]     1226
+14                              [Ghee, Sweet, Butter]     1173
+15                            [Ghee, Yougurt, Butter]     1195
+16                    [Yougurt, Sweet, Sugar, Butter]      602
+17              [Coffee Powder, Sweet, Sugar, Butter]      596
+18            [Coffee Powder, Yougurt, Sweet, Butter]      584
+19                       [Ghee, Sweet, Sugar, Butter]      583
+20               [Ghee, Coffee Powder, Sugar, Butter]      586
+21                     [Ghee, Yougurt, Sugar, Butter]      586
+22             [Ghee, Coffee Powder, Yougurt, Butter]      598
+23            [Coffee Powder, Yougurt, Sugar, Butter]      608
+24                     [Ghee, Yougurt, Sweet, Butter]      551
+25               [Ghee, Coffee Powder, Sweet, Butter]      543
+26              [Ghee, Yougurt, Sweet, Sugar, Butter]      269
+27     [Coffee Powder, Yougurt, Sweet, Sugar, Butter]      298
+28      [Ghee, Coffee Powder, Yougurt, Sugar, Butter]      289
+29        [Ghee, Coffee Powder, Sweet, Sugar, Butter]      270
+30      [Ghee, Coffee Powder, Yougurt, Sweet, Butter]      261
+31  [Ghee, Coffee Powder, Yougurt, Sweet, Sugar, B...      128
+
+
+             Frequent Item  Support
+0                 [Butter]     5481
+1          [Sugar, Butter]     2571
+2          [Sweet, Butter]     2543
+3        [Yougurt, Butter]     2529
+4  [Coffee Powder, Butter]     2502
+5           [Ghee, Butter]     2530
+
+
+----------------------------------------------------------------------
+
+
+Sugar
+
+
+                                  Frequent Item  Support
+0                                       [Sugar]     5482
+1                              [Yougurt, Sugar]     2529
+2                        [Coffee Powder, Sugar]     2503
+3                                 [Ghee, Sugar]     2516
+4                                 [Milk, Sugar]     2563
+5                        [Ghee, Yougurt, Sugar]     1179
+6               [Coffee Powder, Yougurt, Sugar]     1207
+7                  [Ghee, Coffee Powder, Sugar]     1189
+8                           [Milk, Ghee, Sugar]     1204
+9                        [Milk, Yougurt, Sugar]     1199
+10                 [Milk, Coffee Powder, Sugar]     1218
+11        [Ghee, Coffee Powder, Yougurt, Sugar]      571
+12           [Milk, Ghee, Coffee Powder, Sugar]      567
+13        [Milk, Coffee Powder, Yougurt, Sugar]      601
+14                 [Milk, Ghee, Yougurt, Sugar]      569
+15  [Milk, Ghee, Coffee Powder, Yougurt, Sugar]      281
+
+
+            Frequent Item  Support
+0                 [Sugar]     5482
+1        [Yougurt, Sugar]     2529
+2  [Coffee Powder, Sugar]     2503
+3           [Ghee, Sugar]     2516
+4           [Milk, Sugar]     2563
+
+
+----------------------------------------------------------------------
+
+
+Sweet
+
+
+                Frequent Item  Support
+0                     [Sweet]     5483
+1              [Bread, Sweet]     2539
+2               [Ghee, Sweet]     2504
+3               [Milk, Sweet]     2512
+4        [Ghee, Bread, Sweet]     1198
+5         [Milk, Ghee, Sweet]     1178
+6        [Milk, Bread, Sweet]     1204
+7  [Milk, Ghee, Bread, Sweet]      577
+
+
+    Frequent Item  Support
+0         [Sweet]     5483
+1  [Bread, Sweet]     2539
+2   [Ghee, Sweet]     2504
+3   [Milk, Sweet]     2512
+
+
+----------------------------------------------------------------------
+
+
+Bread
+
+
+                                  Frequent Item  Support
+0                                       [Bread]     5484
+1                              [Yougurt, Bread]     2507
+2                        [Coffee Powder, Bread]     2528
+3                                 [Ghee, Bread]     2503
+4                                 [Milk, Bread]     2517
+5                        [Ghee, Yougurt, Bread]     1163
+6               [Coffee Powder, Yougurt, Bread]     1201
+7                  [Ghee, Coffee Powder, Bread]     1206
+8                           [Milk, Ghee, Bread]     1184
+9                        [Milk, Yougurt, Bread]     1192
+10                 [Milk, Coffee Powder, Bread]     1191
+11        [Ghee, Coffee Powder, Yougurt, Bread]      575
+12           [Milk, Ghee, Coffee Powder, Bread]      555
+13        [Milk, Coffee Powder, Yougurt, Bread]      585
+14                 [Milk, Ghee, Yougurt, Bread]      559
+15  [Milk, Ghee, Coffee Powder, Yougurt, Bread]      272
+
+
+            Frequent Item  Support
+0                 [Bread]     5484
+1        [Yougurt, Bread]     2507
+2  [Coffee Powder, Bread]     2528
+3           [Ghee, Bread]     2503
+4           [Milk, Bread]     2517
+
+
+----------------------------------------------------------------------
+
+
+Yougurt
+
+
+                    Frequent Item  Support
+0                       [Yougurt]     5503
+1        [Coffee Powder, Yougurt]     2555
+2                 [Milk, Yougurt]     2513
+3  [Milk, Coffee Powder, Yougurt]     1237
+
+
+              Frequent Item  Support
+0                 [Yougurt]     5503
+1  [Coffee Powder, Yougurt]     2555
+2           [Milk, Yougurt]     2513
+
+
+----------------------------------------------------------------------
+
+
+Coffee Powder
+
+
+                 Frequent Item  Support
+0              [Coffee Powder]     5509
+1        [Ghee, Coffee Powder]     2578
+2        [Milk, Coffee Powder]     2518
+3  [Milk, Ghee, Coffee Powder]     1197
+
+
+           Frequent Item  Support
+0        [Coffee Powder]     5509
+1  [Ghee, Coffee Powder]     2578
+2  [Milk, Coffee Powder]     2518
+
+
+----------------------------------------------------------------------
+
+
+Ghee
+
+
+  Frequent Item  Support
+0        [Ghee]     5510
+1  [Milk, Ghee]     2511
+
+
+  Frequent Item  Support
+0        [Ghee]     5510
+1  [Milk, Ghee]     2511
+
+
+----------------------------------------------------------------------
+
+
+Milk
+
+
+  Frequent Item  Support
+0        [Milk]     5526
+
+
+  Frequent Item  Support
+0        [Milk]     5526
+
+
+----------------------------------------------------------------------
+
+

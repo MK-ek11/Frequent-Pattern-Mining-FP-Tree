@@ -1,0 +1,858 @@
+Tea Powder
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2444
+1            Ghee       2418
+2   Coffee Powder       2451
+3         Yougurt       2486
+4           Bread       2445
+5           Sweet       2503
+6           Sugar       2473
+7          Butter       2417
+8          Cheese       2391
+9          Panner       2409
+10          Lassi       2439
+11     Tea Powder       5383
+
+
+Frequency Table (After Dropping Items below Threshold)
+         Item  Frequency
+0       Sweet       2503
+1  Tea Powder       5383
+
+
+Conditional FP Tree final output (Unsorted)
+['Sweet', 'Tea Powder']
+['Tea Powder']
+
+
+Conditional FP Tree final output (sorted)
+['Tea Powder']
+['Sweet', 'Tea Powder']
+
+
+----------------------------------------------------------------------
+Lassi
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2539
+1            Ghee       2511
+2   Coffee Powder       2512
+3         Yougurt       2466
+4           Bread       2506
+5           Sweet       2576
+6           Sugar       2503
+7          Butter       2501
+8          Cheese       2484
+9          Panner       2497
+10          Lassi       5432
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+            Item  Frequency
+0           Milk       2539
+1           Ghee       2511
+2  Coffee Powder       2512
+3          Bread       2506
+4          Sweet       2576
+5          Sugar       2503
+6         Butter       2501
+7          Lassi       5432
+
+
+Conditional FP Tree final output (Unsorted)
+['Ghee', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Sweet', 'Sugar', 'Butter', 'Lassi']
+['Sugar', 'Butter', 'Lassi']
+['Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Sweet', 'Sugar', 'Lassi']
+['Bread', 'Sweet', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Bread', 'Sweet', 'Sugar', 'Lassi']
+['Sweet', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Bread', 'Sweet', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Bread', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Ghee', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Sweet', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Bread', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Bread', 'Lassi']
+['Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Coffee Powder', 'Sweet', 'Lassi']
+['Ghee', 'Coffee Powder', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Sweet', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sugar', 'Lassi']
+['Ghee', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Lassi']
+['Ghee', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sugar', 'Lassi']
+['Ghee', 'Sugar', 'Lassi']
+['Coffee Powder', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Butter', 'Lassi']
+['Ghee', 'Butter', 'Lassi']
+['Ghee', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Lassi']
+['Milk', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Sweet', 'Lassi']
+['Milk', 'Coffee Powder', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Lassi']
+['Ghee', 'Coffee Powder', 'Lassi']
+['Ghee', 'Bread', 'Lassi']
+['Milk', 'Ghee', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Sugar', 'Lassi']
+['Ghee', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Lassi']
+['Milk', 'Coffee Powder', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Lassi']
+['Milk', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Lassi']
+['Milk', 'Bread', 'Lassi']
+['Milk', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Lassi']
+['Milk', 'Sweet', 'Lassi']
+['Milk', 'Coffee Powder', 'Lassi']
+['Milk', 'Lassi']
+
+
+Conditional FP Tree final output (sorted)
+['Lassi']
+['Butter', 'Lassi']
+['Sugar', 'Lassi']
+['Sweet', 'Lassi']
+['Bread', 'Lassi']
+['Coffee Powder', 'Lassi']
+['Ghee', 'Lassi']
+['Milk', 'Lassi']
+['Sugar', 'Butter', 'Lassi']
+['Sweet', 'Sugar', 'Lassi']
+['Sweet', 'Butter', 'Lassi']
+['Bread', 'Sweet', 'Lassi']
+['Bread', 'Sugar', 'Lassi']
+['Bread', 'Butter', 'Lassi']
+['Coffee Powder', 'Sugar', 'Lassi']
+['Coffee Powder', 'Sweet', 'Lassi']
+['Coffee Powder', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Lassi']
+['Ghee', 'Sugar', 'Lassi']
+['Ghee', 'Butter', 'Lassi']
+['Ghee', 'Sweet', 'Lassi']
+['Ghee', 'Coffee Powder', 'Lassi']
+['Ghee', 'Bread', 'Lassi']
+['Milk', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Lassi']
+['Milk', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Lassi']
+['Milk', 'Sweet', 'Lassi']
+['Milk', 'Coffee Powder', 'Lassi']
+['Sweet', 'Sugar', 'Butter', 'Lassi']
+['Bread', 'Sweet', 'Butter', 'Lassi']
+['Bread', 'Sugar', 'Butter', 'Lassi']
+['Bread', 'Sweet', 'Sugar', 'Lassi']
+['Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Lassi']
+['Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Lassi']
+['Ghee', 'Coffee Powder', 'Butter', 'Lassi']
+['Ghee', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sugar', 'Lassi']
+['Ghee', 'Bread', 'Sweet', 'Lassi']
+['Ghee', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Bread', 'Sugar', 'Lassi']
+['Ghee', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Lassi']
+['Milk', 'Coffee Powder', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Lassi']
+['Milk', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Lassi']
+['Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Ghee', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Butter', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Lassi']
+['Milk', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Butter', 'Lassi']
+['Ghee', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Lassi']
+['Milk', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Lassi']
+['Milk', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Butter', 'Lassi']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread', 'Sweet', 'Sugar', 'Butter', 'Lassi']
+
+
+----------------------------------------------------------------------
+Panner
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2483
+1            Ghee       2523
+2   Coffee Powder       2482
+3         Yougurt       2498
+4           Bread       2550
+5           Sweet       2505
+6           Sugar       2505
+7          Butter       2483
+8          Cheese       2497
+9          Panner       5444
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+     Item  Frequency
+0    Ghee       2523
+1   Bread       2550
+2   Sweet       2505
+3   Sugar       2505
+4  Panner       5444
+
+
+Conditional FP Tree final output (Unsorted)
+['Ghee', 'Bread', 'Sweet', 'Sugar', 'Panner']
+['Panner']
+['Bread', 'Sweet', 'Sugar', 'Panner']
+['Sweet', 'Sugar', 'Panner']
+['Sugar', 'Panner']
+['Ghee', 'Bread', 'Sugar', 'Panner']
+['Bread', 'Sweet', 'Panner']
+['Ghee', 'Sweet', 'Sugar', 'Panner']
+['Bread', 'Sugar', 'Panner']
+['Sweet', 'Panner']
+['Ghee', 'Sweet', 'Panner']
+['Ghee', 'Bread', 'Panner']
+['Ghee', 'Bread', 'Sweet', 'Panner']
+['Bread', 'Panner']
+['Ghee', 'Sugar', 'Panner']
+['Ghee', 'Panner']
+
+
+Conditional FP Tree final output (sorted)
+['Panner']
+['Sugar', 'Panner']
+['Sweet', 'Panner']
+['Bread', 'Panner']
+['Ghee', 'Panner']
+['Sweet', 'Sugar', 'Panner']
+['Bread', 'Sweet', 'Panner']
+['Bread', 'Sugar', 'Panner']
+['Ghee', 'Sweet', 'Panner']
+['Ghee', 'Bread', 'Panner']
+['Ghee', 'Sugar', 'Panner']
+['Bread', 'Sweet', 'Sugar', 'Panner']
+['Ghee', 'Bread', 'Sugar', 'Panner']
+['Ghee', 'Sweet', 'Sugar', 'Panner']
+['Ghee', 'Bread', 'Sweet', 'Panner']
+['Ghee', 'Bread', 'Sweet', 'Sugar', 'Panner']
+
+
+----------------------------------------------------------------------
+Cheese
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2468
+1            Ghee       2472
+2   Coffee Powder       2517
+3         Yougurt       2532
+4           Bread       2530
+5           Sweet       2498
+6           Sugar       2460
+7          Butter       2485
+8          Cheese       5476
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+            Item  Frequency
+0  Coffee Powder       2517
+1        Yougurt       2532
+2          Bread       2530
+3         Cheese       5476
+
+
+Conditional FP Tree final output (Unsorted)
+['Yougurt', 'Bread', 'Cheese']
+['Cheese']
+['Coffee Powder', 'Yougurt', 'Bread', 'Cheese']
+['Bread', 'Cheese']
+['Coffee Powder', 'Bread', 'Cheese']
+['Yougurt', 'Cheese']
+['Coffee Powder', 'Yougurt', 'Cheese']
+['Coffee Powder', 'Cheese']
+
+
+Conditional FP Tree final output (sorted)
+['Cheese']
+['Bread', 'Cheese']
+['Yougurt', 'Cheese']
+['Coffee Powder', 'Cheese']
+['Yougurt', 'Bread', 'Cheese']
+['Coffee Powder', 'Bread', 'Cheese']
+['Coffee Powder', 'Yougurt', 'Cheese']
+['Coffee Powder', 'Yougurt', 'Bread', 'Cheese']
+
+
+----------------------------------------------------------------------
+Butter
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2491
+1            Ghee       2530
+2   Coffee Powder       2502
+3         Yougurt       2529
+4           Bread       2467
+5           Sweet       2543
+6           Sugar       2571
+7          Butter       5481
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+            Item  Frequency
+0           Ghee       2530
+1  Coffee Powder       2502
+2        Yougurt       2529
+3          Sweet       2543
+4          Sugar       2571
+5         Butter       5481
+
+
+Conditional FP Tree final output (Unsorted)
+['Ghee', 'Yougurt', 'Sweet', 'Sugar', 'Butter']
+['Butter']
+['Coffee Powder', 'Yougurt', 'Sweet', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sweet', 'Sugar', 'Butter']
+['Yougurt', 'Sweet', 'Sugar', 'Butter']
+['Sweet', 'Sugar', 'Butter']
+['Sugar', 'Butter']
+['Coffee Powder', 'Sweet', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sugar', 'Butter']
+['Coffee Powder', 'Yougurt', 'Sweet', 'Butter']
+['Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter']
+['Sweet', 'Butter']
+['Yougurt', 'Sweet', 'Butter']
+['Ghee', 'Sweet', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Sugar', 'Butter']
+['Yougurt', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sweet', 'Butter']
+['Ghee', 'Yougurt', 'Sugar', 'Butter']
+['Coffee Powder', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Butter']
+['Coffee Powder', 'Yougurt', 'Sugar', 'Butter']
+['Ghee', 'Yougurt', 'Sweet', 'Butter']
+['Coffee Powder', 'Sweet', 'Butter']
+['Yougurt', 'Butter']
+['Ghee', 'Coffee Powder', 'Sweet', 'Butter']
+['Coffee Powder', 'Butter']
+['Coffee Powder', 'Yougurt', 'Butter']
+['Ghee', 'Coffee Powder', 'Butter']
+['Ghee', 'Sugar', 'Butter']
+['Ghee', 'Sweet', 'Butter']
+['Ghee', 'Yougurt', 'Butter']
+['Ghee', 'Butter']
+
+
+Conditional FP Tree final output (sorted)
+['Butter']
+['Sugar', 'Butter']
+['Sweet', 'Butter']
+['Yougurt', 'Butter']
+['Coffee Powder', 'Butter']
+['Ghee', 'Butter']
+['Sweet', 'Sugar', 'Butter']
+['Yougurt', 'Sweet', 'Butter']
+['Yougurt', 'Sugar', 'Butter']
+['Coffee Powder', 'Sugar', 'Butter']
+['Coffee Powder', 'Sweet', 'Butter']
+['Coffee Powder', 'Yougurt', 'Butter']
+['Ghee', 'Coffee Powder', 'Butter']
+['Ghee', 'Sugar', 'Butter']
+['Ghee', 'Sweet', 'Butter']
+['Ghee', 'Yougurt', 'Butter']
+['Yougurt', 'Sweet', 'Sugar', 'Butter']
+['Coffee Powder', 'Sweet', 'Sugar', 'Butter']
+['Coffee Powder', 'Yougurt', 'Sweet', 'Butter']
+['Ghee', 'Sweet', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Sugar', 'Butter']
+['Ghee', 'Yougurt', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Butter']
+['Coffee Powder', 'Yougurt', 'Sugar', 'Butter']
+['Ghee', 'Yougurt', 'Sweet', 'Butter']
+['Ghee', 'Coffee Powder', 'Sweet', 'Butter']
+['Ghee', 'Yougurt', 'Sweet', 'Sugar', 'Butter']
+['Coffee Powder', 'Yougurt', 'Sweet', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Sweet', 'Sugar', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sweet', 'Butter']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sweet', 'Sugar', 'Butter']
+
+
+----------------------------------------------------------------------
+Sugar
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2563
+1            Ghee       2516
+2   Coffee Powder       2503
+3         Yougurt       2529
+4           Bread       2479
+5           Sweet       2495
+6           Sugar       5482
+7          Butter          0
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+            Item  Frequency
+0           Milk       2563
+1           Ghee       2516
+2  Coffee Powder       2503
+3        Yougurt       2529
+4          Sugar       5482
+
+
+Conditional FP Tree final output (Unsorted)
+['Ghee', 'Yougurt', 'Sugar']
+['Coffee Powder', 'Yougurt', 'Sugar']
+['Milk', 'Ghee', 'Coffee Powder', 'Yougurt', 'Sugar']
+['Yougurt', 'Sugar']
+['Sugar']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sugar']
+['Coffee Powder', 'Sugar']
+['Milk', 'Ghee', 'Coffee Powder', 'Sugar']
+['Ghee', 'Coffee Powder', 'Sugar']
+['Milk', 'Ghee', 'Sugar']
+['Ghee', 'Sugar']
+['Milk', 'Coffee Powder', 'Yougurt', 'Sugar']
+['Milk', 'Ghee', 'Yougurt', 'Sugar']
+['Milk', 'Yougurt', 'Sugar']
+['Milk', 'Coffee Powder', 'Sugar']
+['Milk', 'Sugar']
+
+
+Conditional FP Tree final output (sorted)
+['Sugar']
+['Yougurt', 'Sugar']
+['Coffee Powder', 'Sugar']
+['Ghee', 'Sugar']
+['Milk', 'Sugar']
+['Ghee', 'Yougurt', 'Sugar']
+['Coffee Powder', 'Yougurt', 'Sugar']
+['Ghee', 'Coffee Powder', 'Sugar']
+['Milk', 'Ghee', 'Sugar']
+['Milk', 'Yougurt', 'Sugar']
+['Milk', 'Coffee Powder', 'Sugar']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Sugar']
+['Milk', 'Ghee', 'Coffee Powder', 'Sugar']
+['Milk', 'Coffee Powder', 'Yougurt', 'Sugar']
+['Milk', 'Ghee', 'Yougurt', 'Sugar']
+['Milk', 'Ghee', 'Coffee Powder', 'Yougurt', 'Sugar']
+
+
+----------------------------------------------------------------------
+Sweet
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2512
+1            Ghee       2504
+2   Coffee Powder       2496
+3         Yougurt       2478
+4           Bread       2539
+5           Sweet       5483
+6           Sugar          0
+7          Butter          0
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+    Item  Frequency
+0   Milk       2512
+1   Ghee       2504
+2  Bread       2539
+3  Sweet       5483
+
+
+Conditional FP Tree final output (Unsorted)
+['Ghee', 'Bread', 'Sweet']
+['Bread', 'Sweet']
+['Milk', 'Ghee', 'Bread', 'Sweet']
+['Sweet']
+['Milk', 'Ghee', 'Sweet']
+['Ghee', 'Sweet']
+['Milk', 'Bread', 'Sweet']
+['Milk', 'Sweet']
+
+
+Conditional FP Tree final output (sorted)
+['Sweet']
+['Bread', 'Sweet']
+['Ghee', 'Sweet']
+['Milk', 'Sweet']
+['Ghee', 'Bread', 'Sweet']
+['Milk', 'Ghee', 'Sweet']
+['Milk', 'Bread', 'Sweet']
+['Milk', 'Ghee', 'Bread', 'Sweet']
+
+
+----------------------------------------------------------------------
+Bread
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2517
+1            Ghee       2503
+2   Coffee Powder       2528
+3         Yougurt       2507
+4           Bread       5484
+5           Sweet          0
+6           Sugar          0
+7          Butter          0
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+            Item  Frequency
+0           Milk       2517
+1           Ghee       2503
+2  Coffee Powder       2528
+3        Yougurt       2507
+4          Bread       5484
+
+
+Conditional FP Tree final output (Unsorted)
+['Ghee', 'Yougurt', 'Bread']
+['Coffee Powder', 'Yougurt', 'Bread']
+['Milk', 'Ghee', 'Coffee Powder', 'Yougurt', 'Bread']
+['Yougurt', 'Bread']
+['Bread']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Bread']
+['Coffee Powder', 'Bread']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread']
+['Ghee', 'Coffee Powder', 'Bread']
+['Milk', 'Ghee', 'Bread']
+['Ghee', 'Bread']
+['Milk', 'Coffee Powder', 'Yougurt', 'Bread']
+['Milk', 'Ghee', 'Yougurt', 'Bread']
+['Milk', 'Yougurt', 'Bread']
+['Milk', 'Coffee Powder', 'Bread']
+['Milk', 'Bread']
+
+
+Conditional FP Tree final output (sorted)
+['Bread']
+['Yougurt', 'Bread']
+['Coffee Powder', 'Bread']
+['Ghee', 'Bread']
+['Milk', 'Bread']
+['Ghee', 'Yougurt', 'Bread']
+['Coffee Powder', 'Yougurt', 'Bread']
+['Ghee', 'Coffee Powder', 'Bread']
+['Milk', 'Ghee', 'Bread']
+['Milk', 'Yougurt', 'Bread']
+['Milk', 'Coffee Powder', 'Bread']
+['Ghee', 'Coffee Powder', 'Yougurt', 'Bread']
+['Milk', 'Ghee', 'Coffee Powder', 'Bread']
+['Milk', 'Coffee Powder', 'Yougurt', 'Bread']
+['Milk', 'Ghee', 'Yougurt', 'Bread']
+['Milk', 'Ghee', 'Coffee Powder', 'Yougurt', 'Bread']
+
+
+----------------------------------------------------------------------
+Yougurt
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2513
+1            Ghee       2477
+2   Coffee Powder       2555
+3         Yougurt       5503
+4           Bread          0
+5           Sweet          0
+6           Sugar          0
+7          Butter          0
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+            Item  Frequency
+0           Milk       2513
+1  Coffee Powder       2555
+2        Yougurt       5503
+
+
+Conditional FP Tree final output (Unsorted)
+['Yougurt']
+['Coffee Powder', 'Yougurt']
+['Milk', 'Coffee Powder', 'Yougurt']
+['Milk', 'Yougurt']
+
+
+Conditional FP Tree final output (sorted)
+['Yougurt']
+['Coffee Powder', 'Yougurt']
+['Milk', 'Yougurt']
+['Milk', 'Coffee Powder', 'Yougurt']
+
+
+----------------------------------------------------------------------
+Coffee Powder
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2518
+1            Ghee       2578
+2   Coffee Powder       5509
+3         Yougurt          0
+4           Bread          0
+5           Sweet          0
+6           Sugar          0
+7          Butter          0
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+            Item  Frequency
+0           Milk       2518
+1           Ghee       2578
+2  Coffee Powder       5509
+
+
+Conditional FP Tree final output (Unsorted)
+['Coffee Powder']
+['Milk', 'Ghee', 'Coffee Powder']
+['Ghee', 'Coffee Powder']
+['Milk', 'Coffee Powder']
+
+
+Conditional FP Tree final output (sorted)
+['Coffee Powder']
+['Ghee', 'Coffee Powder']
+['Milk', 'Coffee Powder']
+['Milk', 'Ghee', 'Coffee Powder']
+
+
+----------------------------------------------------------------------
+Ghee
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       2511
+1            Ghee       5510
+2   Coffee Powder          0
+3         Yougurt          0
+4           Bread          0
+5           Sweet          0
+6           Sugar          0
+7          Butter          0
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+   Item  Frequency
+0  Milk       2511
+1  Ghee       5510
+
+
+Conditional FP Tree final output (Unsorted)
+['Ghee']
+['Milk', 'Ghee']
+
+
+Conditional FP Tree final output (sorted)
+['Ghee']
+['Milk', 'Ghee']
+
+
+----------------------------------------------------------------------
+Milk
+Frequency Table (Complete)
+             Item  Frequency
+0            Milk       5526
+1            Ghee          0
+2   Coffee Powder          0
+3         Yougurt          0
+4           Bread          0
+5           Sweet          0
+6           Sugar          0
+7          Butter          0
+8          Cheese          0
+9          Panner          0
+10          Lassi          0
+11     Tea Powder          0
+
+
+Frequency Table (After Dropping Items below Threshold)
+   Item  Frequency
+0  Milk       5526
+
+
+Conditional FP Tree final output (Unsorted)
+['Milk']
+
+
+Conditional FP Tree final output (sorted)
+['Milk']
+
+
+----------------------------------------------------------------------
